@@ -1,0 +1,303 @@
+
+body
+{
+  width: 1152px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: "Helvetica Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+header
+{
+  width: 1152px;
+  height: 90px;
+  background-image: url(../img/BG1_top.png);
+  }
+.logo
+{
+  margin-left: 50px;
+}
+/* Блок навигации */
+nav
+{
+  padding-top: 15px;
+  height: 89px;
+  padding-right: 50px;
+  float: right;
+}
+
+nav li
+{
+  margin-left: 120px;
+  display: inline-block;
+  font-size: 18px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.Block_1_Calendar
+{
+  height: 610px;
+  background-image: url(../img/BG1.png);
+}
+.Block_1_Calendar .text
+{
+padding-top: 113px;
+padding-left: 50px;
+width: 630px;
+height: 87px;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.Button_Calendar
+{
+margin-top: 50px;
+margin-left: 50px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+position: absolute;
+width: 250px;
+height: 52px;
+background: #BE0078;
+/* кнопка */
+box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+border-radius: 10px;
+
+}
+.Button_Calendar p
+{
+font-size: 18px;
+line-height: 52px;
+/* identical to box height */
+color: #FFFFFF;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0 auto;
+}
+.Block_2_Tur_base
+{
+  height: 733px;
+  background-image: url(../img/BG_TurBase.png);
+}
+.Block_2_Tur_base p
+{
+width: 389px;
+height: 43px;
+margin: 0 auto;
+padding-top: 34px;
+font-size: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+.Mama-saxa
+{
+  float: left;
+  width: 350px;
+  height: 550px;
+  margin-top: 30px;
+  margin-left: 163px;
+  background: rgba(190, 0, 120, 0.3);
+  border-radius: 20px;
+  text-align: center;
+}
+.img_saxa
+{
+  margin-top: 23px;
+}
+p.text-saxa
+{
+width: 300px;
+height: 128px;
+margin: 0 auto;
+padding: 30px 25px 94px 25px;
+font-size: 13px;
+line-height: 16px;
+}
+.go_over
+{
+margin: 0 auto;
+width: 192px;
+height: 52px;
+box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+background: #BE0078;
+border-radius: 10px;
+}
+.go_over p
+{
+  width: 82px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-left: 30px;
+  float: left;
+  display: block;
+}
+.go_over img
+{
+  width: 45px;
+  height: 15px;
+  padding-top: 19px;
+  padding-right: 29px;
+  float: right;
+  display: block;
+}
+
+
+.Urochishe
+{
+  float: right;
+  width: 350px;
+  height: 550px;
+  margin-right: 168px;
+  margin-top: 30px;
+  background: rgba(190, 0, 120, 0.3);
+  border-radius: 20px;
+  text-align: center;
+}
+.img_uroch
+{
+  margin-top: 48px;
+}
+p.text-uroch
+{
+width: 300px;
+height: 192px;
+margin: 0 auto;
+padding: 55px 25px 30px 25px;
+font-size: 13px;
+line-height: 16px;
+
+}
+
+
+
+.Block_3_Project
+{
+  background-image: url(../img/BG_OurProj.png);
+  height: 655px;
+  padding-top: 45px;
+}
+
+.Our_proj
+{
+
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background: rgba(53, 0, 143, 0.8);
+  text-align: center;
+  margin: 0 auto;
+}
+.Our_proj h2
+{
+  margin: 0px;
+  padding-top: 34px;
+  font-size: 24px;
+}
+.Our_proj p
+{
+  width: 313px;
+  height: 273px;
+  margin-top: 28px;
+  margin-left: 63px;
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+}
+.logo_line
+{
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 49px;
+  display: inline-block;
+  padding-top: 50px;
+}
+.logo_line img
+{
+  padding-right: 95px;
+}
+.new_cen
+{
+  width: 155px;
+  height: 100px;
+}
+.school
+{
+  width: 141px;
+  height: 100px;
+}
+.uroch
+{
+  width: 141px;
+  height: 100px;
+}
+.popolz
+{
+  width: 132px;
+  height: 100px;
+}
+img.saxa
+{
+  width: 100px;
+  height: 100px;
+  padding-right: 0px;
+}
+
+
+footer
+{
+  font-size: 18px;
+  width: 100%;
+  height: 200px;
+  background-color: #35008F;
+  margin: 0;
+}
+.Block_Footer
+{
+  padding-top:30px;
+  margin-left: 50px;
+}
+
+.Protect
+{
+  margin: 0;
+  line-height: 21px;
+
+}
+.Phone-call
+{
+  Font style: (mixed)
+Font size: 18px;
+line-height: 100%;
+Align: Left;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+.Whatsapp
+{
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+footer img
+{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+main
+{
+  margin: 0 auto;
+}

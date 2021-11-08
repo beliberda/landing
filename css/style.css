@@ -1,0 +1,330 @@
+*, *:after, *:before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   /* добавим плавность переходов для всех элементов страницы*/
+}
+@font-face {font-family: "Helvetica Narrow";
+    src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.svg#Helvetica Narrow") format("svg"); /* iOS 4.1- */
+}
+ul {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   outline: none;
+}
+img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+body
+{
+  max-width: 1152px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: "Helvetica Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  min-width: 200px;
+}
+header
+{
+  width: 100%;
+  max-height: 90px;
+  background-image: url(../img/BG1_top.png);
+  position: relative;
+}
+.logo
+{
+  max-width: 190px;
+  max-height: 89px;
+  margin-left: 50px;
+}
+nav
+{
+  position: relative;
+  max-height: 20px;
+  float:right;
+  margin-top:32px;
+  margin-right: 67px;
+
+}
+nav li
+{
+  display: inline-block;
+  margin-right:120px;
+}
+/* значок поиска в хедере */
+.search
+{
+  margin-right: 0;
+}
+
+
+.Block_1_Calendar
+{
+  height: 610px;
+  background-image: url(../img/BG1.png);
+  padding-top: 113px;
+}
+
+/* текст над кнопкой календарь */
+.Block_1_Calendar .text
+{
+  margin-left: 50px;
+  max-width: 630px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+/* сама кнопка календарь */
+.Button_Calendar
+{
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 52px;
+  background: #BE0078;
+  /* кнопка */
+  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+  border-radius: 10px;
+}
+/* текст внутри кнопки */
+.Button_Calendar p
+{
+  font-size: 18px;
+  line-height: 52px;
+  /* identical to box height */
+  color: #FFFFFF;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+}
+
+.Block_2_Tur_base
+{
+  height: 733px;
+  background-image: url(../img/BG_TurBase.png);
+}
+.Block_2_Tur_base h1
+{
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 34px;
+}
+.Pink_Block_Saxa
+{
+  padding: 23px 25px 23px 25px;
+  float: left;
+  width: 30.3819%;
+  height: 550px;
+  margin-top: 30px;
+  margin-left: 14.5833%;
+  background: rgba(190, 0, 120, 0.3);
+  border-radius: 20px;
+  text-align: center;
+}
+.Pink_Block_Saxa .text
+{
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 16px;
+  margin-bottom: 94px;
+}
+.Pink_Block_Urochi
+{
+  padding: 48px 25px 23px 25px;
+  float: right;
+  max-width: 350px;
+  max-height: 550px;
+  width: 30.3819%;
+  height: 550px;
+  margin-top: 30px;
+  margin-right: 14.1493%;
+  background: rgba(190, 0, 120, 0.3);
+  border-radius: 20px;
+  text-align: center;
+
+}
+.Pink_Block_Urochi .text
+{
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 55px;
+  line-height: 16px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  height: 192px;
+}
+.Button_go_over
+{
+
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 192px;
+  max-height: 52px;
+  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+  background: #BE0078;
+  border-radius: 10px;
+}
+.Button_go_over p
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+.arrow
+{
+  display: block;
+  max-width: 45px;
+  float: right;
+  margin-right: 29px;
+  margin-top: 17px;
+}
+
+
+
+.Block_3_Project
+{
+  background-image: url(../img/BG_OurProj.png);
+  height: 700px;
+  width: 100%;
+  padding-top: 45px;
+}
+.Block_3_Project .text
+{
+  max-width: 440px;
+  max-height: 440px;
+  border-radius: 50%;
+  background: rgba(53, 0, 143, 0.8);
+  text-align: center;
+  margin: 0 auto;
+  padding: 34px 64px 76px 63px;
+}
+
+.Block_3_Project .text h2
+{
+  margin: 0px;
+  font-size: 24px;
+}
+.Block_3_Project .text p
+{
+  max-width: 313px;
+  min-height: 273px;
+  margin-top: 28px;
+  font-size: 18px;
+  /* font-size: 18px; */
+  font-weight: 400;
+  line-height: 21px;
+
+}
+/* Блок с логотипами в одну линию */
+.logo_line
+{
+  margin-top: 50px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.logo_line img
+{
+  margin-right: 95px;
+  width: 100%;
+  height: 100%;
+}
+.new_cen
+{
+  max-width: 155px;
+  max-height: 100px;
+}
+.school
+{
+  max-width: 141px;
+  max-height: 100px;
+}
+.uroch
+{
+  max-width: 141px;
+  max-height: 100px;
+}
+.popolz
+{
+  max-width: 132px;
+  max-height: 100px;
+}
+img.saxa
+{
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 0px;
+}
+
+
+footer
+{
+  font-size: 18px;
+  width: 100%;
+  height: 200px;
+  background-color: #35008F;
+  margin: 0;
+}
+.Block_Footer
+{
+  padding-top:30px;
+  margin-left: 50px;
+}
+
+/* Все права защищены */
+.Protect
+{
+  margin: 0;
+  line-height: 21px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+/* номер телефона */
+.Phone-call
+{
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.04px;
+  text-align: Left;
+  margin-top: 20px;
+  margin-bottom: 19px;
+
+}
+/* номер вотс */
+.Whatsapp
+{
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+footer img
+{
+  margin-right: 10px;
+  max-width: 20px;
+  max-height: 20px;
+  height: 100%;
+  width: 100%;
+}

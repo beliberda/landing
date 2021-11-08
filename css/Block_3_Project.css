@@ -1,0 +1,110 @@
+*, *:after, *:before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   /* добавим плавность переходов для всех элементов страницы*/
+}
+@font-face {font-family: "Helvetica Narrow";
+    src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.svg#Helvetica Narrow") format("svg"); /* iOS 4.1- */
+}
+ul {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   outline: none;
+}
+img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+body
+{
+  max-width: 1152px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: "Helvetica Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  min-width: 200px;
+}
+.Block_3_Project
+{
+  background-image: url(../img/Block_3_Project/BG_OurProj.png);
+  height: 700px;
+  width: 100%;
+  padding-top: 45px;
+}
+.Block_3_Project .text
+{
+  max-width: 440px;
+  max-height: 440px;
+  border-radius: 50%;
+  background: rgba(53, 0, 143, 0.8);
+  text-align: center;
+  margin: 0 auto;
+  padding: 34px 64px 76px 63px;
+}
+
+.Block_3_Project .text h2
+{
+  margin: 0px;
+  font-size: 24px;
+}
+.Block_3_Project .text p
+{
+  max-width: 313px;
+  min-height: 273px;
+  margin-top: 28px;
+  font-size: 18px;
+  /* font-size: 18px; */
+  font-weight: 400;
+  line-height: 21px;
+
+}
+/* Блок с логотипами в одну линию */
+.logo_line
+{
+  margin-top: 50px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.logo_line img
+{
+  margin-right: 95px;
+  width: 100%;
+  height: 100%;
+}
+.new_cen
+{
+  max-width: 155px;
+  max-height: 100px;
+}
+.school
+{
+  max-width: 141px;
+  max-height: 100px;
+}
+.uroch
+{
+  max-width: 141px;
+  max-height: 100px;
+}
+.popolz
+{
+  max-width: 132px;
+  max-height: 100px;
+}
+img.saxa
+{
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 0px;
+}
