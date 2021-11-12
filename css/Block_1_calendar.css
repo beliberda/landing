@@ -1,17 +1,4 @@
-*, *:after, *:before {
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   /* добавим плавность переходов для всех элементов страницы*/
-}
-@font-face {font-family: "Helvetica Narrow";
-    src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.svg#Helvetica Narrow") format("svg"); /* iOS 4.1- */
-}
+
 ul {
    list-style: none;
 }
@@ -39,7 +26,11 @@ body
 .Block_1_Calendar
 {
   height: 610px;
-  background-image: url(../img/BG1.png);
+  background-image: url('../img/BG1.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding-top: 113px;
 }
 

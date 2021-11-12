@@ -4,7 +4,8 @@
    margin: 0;
    /* добавим плавность переходов для всех элементов страницы*/
 }
-@font-face {font-family: "Helvetica Narrow";
+@font-face {
+  font-family: "Helvetica Narrow";
     src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot"); /* IE9*/
     src: url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.woff2") format("woff2"), /* chrome firefox */
@@ -12,6 +13,7 @@
     url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.svg#Helvetica Narrow") format("svg"); /* iOS 4.1- */
 }
+
 ul {
    list-style: none;
 }
@@ -23,8 +25,8 @@ img {
    max-width: 100%;
    max-height: 100%;
 }
-
-body
+background-repeat: no-repeat;
+html, body
 {
   max-width: 1152px;
   margin: 0 auto;
@@ -33,14 +35,15 @@ body
   color: #FFFFFF;
   font-family: "Helvetica Narrow", "Arial", sans-serif;
   font-size: 14px;
-  min-width: 200px;
 }
 header
 {
   width: 100%;
-  max-height: 90px;
+  max-height: auto !important;
   background-image: url(../img/Header/BG1_top.png);
-  position: relative;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .logo
 {
@@ -50,7 +53,6 @@ header
 }
 nav
 {
-  position: relative;
   max-height: 20px;
   float:right;
   margin-top:32px;
@@ -60,10 +62,35 @@ nav
 nav li
 {
   display: inline-block;
-  margin-right:120px;
+  /* margin-right:120px; */
 }
-/* значок поиска в хедере */
-.search
+nav li:not(:last-child) {
+margin: 0px 120px 0px 0px;
+}
+@media (max-width: 840px)
 {
-  margin-right: 0;
+  nav li:not(:last-child) {
+  margin: 0px 80px 0px 0px;
+  }
+}
+@media (max-width: 725px)
+{
+  nav li:not(:last-child) {
+  margin: 0px 50px 0px 0px;
+  }
+}
+@media (max-width: 640px)
+{
+  nav li:not(:last-child) {
+    display:block;
+  margin: 0px 10px 20px 0px;
+  }
+}
+
+@media (max-width: 375px)
+{
+  nav li:not(:last-child) {
+    display:block;
+  margin: 0px -20px 20px 0px;
+  }
 }
