@@ -1,0 +1,195 @@
+
+
+.Block_2_Tur_base
+{
+  min-height: 733px;
+  background-image: url(../img/Block_2_Tur_base/BG_TurBase.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Block_2_Tur_base h1
+{
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 34px;
+}
+.Pink_Block_Left
+{
+  padding: 23px 25px 23px 25px;
+  float: left;
+  width: 30.3819%;
+  height: 550px;
+  margin-top: 30px;
+  margin-left: 14.5833%;
+  background: rgba(190, 0, 120, 0.3);
+  border-radius: 20px;
+  text-align: center;
+}
+.Pink_Block_Left .text
+{
+  max-width: 100%;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 16px;
+  margin-bottom: 94px;
+}
+
+.Pink_Block_Right
+{
+  padding: 48px 25px 23px 25px;
+  float: right;
+  max-width: 350px;
+  max-height: 550px;
+  width: 30.3819%;
+  height: 550px;
+  margin-top: 30px;
+  margin-right: 14.1493%;
+  background: rgba(190, 0, 120, 0.3);
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.Pink_Block_Right .text
+{
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 55px;
+  line-height: 16px;
+  margin-bottom: 44px;
+  max-width: 300px;
+}
+.Button_go_over
+{
+
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 192px;
+  max-height: 52px;
+  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+  background: #BE0078;
+  border-radius: 10px;
+}
+
+
+
+.Button_go_over p
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+.arrow
+{
+  display: block;
+  max-width: 45px;
+  float: right;
+  margin-right: 29px;
+  margin-top: 17px;
+}
+@media (max-width:1024px)
+{
+  .Pink_Block_Left
+  {
+    max-width: 450px;
+    width: 35%;
+    margin-left: 10.5833%;
+  }
+  .Pink_Block_Left .text
+  {
+
+    margin-bottom: 87px;
+  }
+  .Pink_Block_Right
+  {
+    max-width: 450px;
+    width: 35%;
+    margin-right: 10.5833%;
+  }
+}
+@media (max-width:768px)
+{
+  .Pink_Block_Left
+  {
+    max-width: 400px;
+    width: 45%;
+    margin-left: 3%;
+  }
+  .Pink_Block_Right
+  {
+    max-width: 400px;
+    width: 45%;
+  margin-right: 3%;
+  }
+}
+@media (max-width:426px)
+{
+  .Pink_Block_Right .text
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .Pink_Block_Left .text
+  {
+
+    margin-top: -5px;
+    font-size: 10px;
+  }
+  .Button_go_over
+  {
+
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 192px;
+    max-height: 52px;
+    box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+    background: #BE0078;
+    border-radius: 10px;
+  }
+
+
+
+  .Button_go_over p
+  {
+      margin-top: 15px;
+      margin-left: 20px;
+      display: block;
+      float: left;
+      font-size: 15px;
+  }
+  .arrow
+  {
+    max-width: 35px;
+    margin-right: 15px;
+    margin-top: 17px;
+  }
+}
+@media (max-width:376px)
+{
+  .Pink_Block_Left
+  {
+    padding: 13px 15px 13px 15px;
+  }
+  .Pink_Block_Right
+  {
+    padding: 33px 15px 13px 15px;
+  }
+  .Pink_Block_Right .text
+  {
+    margin-top: 12px;
+  }
+  .arrow
+  {
+    max-width: 35px;
+    margin-right: 10px;
+    margin-top: 17px;
+  }
+}
