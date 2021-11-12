@@ -142,3 +142,20 @@ body
     height: 80%;
   }
 }
+
+@media (max-width:376px)
+{
+  .logo_line img
+  {
+    width: 80%;
+    height: auto;
+  }
+    .logo_line li:not(:last-child)
+    {
+      margin-right: -10px;
+    }
+    .Block_3_Project .text p
+    {
+font-size: 16px;
+    }
+}
