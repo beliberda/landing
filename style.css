@@ -111,7 +111,7 @@ a:hover {
 .calendar {
   min-height: 697px;
   padding-top: 203px;
-  background-image: url(./img/Background_1.png);
+  background-image: url(../img/Background_1.png);
   background-size: cover;
 }
 .calendar__row {
