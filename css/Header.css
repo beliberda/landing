@@ -13,7 +13,12 @@
     url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/5a4cd90b04b94bfd8c4e37368228a4dd.svg#Helvetica Narrow") format("svg"); /* iOS 4.1- */
 }
+a:visited{color: #FFFFFF;
+}
+a:hover{
+  text-decoration: underline 3px solid #BE0078;
 
+}
 ul {
    list-style: none;
 }
@@ -28,7 +33,7 @@ img {
 background-repeat: no-repeat;
 html, body
 {
-  max-width: 1152px;
+  width: 100%;
   margin: 0 auto;
   font-style: normal;
   font-weight: bold;
