@@ -54,7 +54,7 @@ body {
 .container {
   max-width: 1152px;
   margin: 0 auto;
-  padding: 0 67px 0 50px;
+  padding: 0 50px 0 50px;
 }
 
 .header__row {
@@ -63,34 +63,34 @@ body {
   align-items: center;
 }
 
-.header__body {
-
-}
-
-.header__logo {
-}
-
 .header__menu {
-  max-width:
+  max-width: 573px;
+    width: 100%;
 }
+
 .header__list {
-    align-items: flex-start;
-    /* height: 30px; */
-    justify-content: flex-end;
+  
+    display: flex;
+    
+    justify-content: space-between;
 }
 
 .header__list li {
-  display: inline-flex;
-  margin-right: 120px;
+  /* display: inline-flex; */
+  /* margin-right: 120px; */
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
 }
-a:visited {
+.header a {
+  border-bottom: 3px solid transparent;
+  padding-bottom: 2px;
+}
+.header a:visited {
   color: #FFFFFF;
 }
-a:hover {
+.header a:hover {
   border-bottom: 3px solid #BE0078;
   padding-bottom: 2px;
 }
@@ -103,204 +103,223 @@ a:hover {
   .header__list li {
     margin-right: 10%;
     font-size: 15px;
-
-  }
-}
-
-/* =================БЛОК 1 КАЛЕНДАРЬ================= */
-
-.calendar {
-  min-height: 697px;
-  padding-top: 203px;
-  background-image: url(../img/Block_1/Background_1.png);
-  background-size: cover;
-}
-.calendar__row {
-  display: flex;
-  height: auto;
-  flex-direction: column;
-}
-
-.calendar__body {
-  font-size: 24px;
-  line-height: 29px;
-  max-width: 630px;
-}
-
-.calendar__butt {
-  display: flex;
-  background: #BE0078;
-  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
-  border-radius: 10px;
-  max-width: 250px;
-  height: 52px;
-  align-items: center;
-  justify-content: center;
-  margin: 50px 0 0 0;
-}
-
-
-/* ================Тур базы================= */
-
-.turbase {
-  min-height: 733px;
-  background-size: cover;
-  background-image: url(../img/Block_2_Tur_base/BG_TurBase.png);
-  padding-top: 45px;
-  padding-bottom: 74px;
-
-}
-
-.turbase__body {
-  font-size: 36px;
-  font-style: normal;
-  text-align: center;
-}
-
-.turbase__row {
-  display: flex;
-  flex-direction: row;
-  margin:36px 0 0 0;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.turbase__pink_block {
-
-  padding: 48px 25px 23px 25px;
-  width: 350px;
-  height: 550px;
-  background: rgba(190, 0, 120, 0.3);
-  border-radius: 20px;
-  text-align: center;
-}
-
-.pink_block__colomn {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.pink_block__colomn__image {
- height: 150px;
-}
-
-.pink_block__colomn__text {
-  font-style: normal;
-  font-size: 13px;
-  line-height: 16px;
-  flex-basis: 200px;
-}
-
-.pink_block__colomn__button {
-
-  width: 192px;
-  height: 52px;
-  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
-  background: #BE0078;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.arrow {
-  margin: 0 0 0 6px;
-}
-/* .block__colomn__empty_block
-{
-  flex: 0 1 90px;
-} */
-.empty_block {
-  width: 15px;
-}
-@media (max-width:850px) {
-  .turbase__pink_block {
-    padding: 38px 15px 13px 15px;
-  }
-  .turbase__row {
-    justify-content: space-between;
-  }
-}
-
-@media (max-width:550px) {
-  .turbase__pink_block {
-    padding: 10px 5px 3px 5px;
   }
   .container {
-     padding: 0 27px 0 10px;
+    padding: 0 50px 0 50px;
+  }
+  .header {
+    margin-bottom: -110px;
   }
 }
-@media (max_width:420px) {
-  .container {
-     padding: 0;
-  }
-  .pink_block__colomn__button {
-    width: 132px;
-    height: 52px;
-  }
-}
-/* ===================Block 3===================================== */
 
 
-.our_project {
-min-height:700px;
-background-image: url(../img/Block_3_project/BG_OurProj.png);
-background-size: cover;
-}
-
-.our_project__body {
-  padding-top: 45px;
+/* ==================tours_excursus=========== */
+.tours_excursus__row {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-content: center;
+  max-height: 800px;
+  width: 100%;
+}
+.tours_excursus {
+  background-image: url(../img/Block_1/Background.png);
+  background-size: cover;
+  height: 800px;
 }
 
-.our_project__body__circle {
-  max-width: 440px;
-  min-height: 440px;
-  border-radius: 50%;
-  background: rgba(53, 0, 143, 0.8);
-  text-align: center;
-  margin: 0 auto;
-  padding: 34px 64px 76px 63px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.title {
-font-style: normal;
+.tours_excursus__body {
+display: flex;
+align-items: center;
 font-weight: bold;
+font-size: 48px;
+line-height: 58px;
+min-height: 700px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+/* ==========================BLUE BLOCK================ */
+
+
+.blue_block {
+  background-color: #35008F;
+  min-height: 120px;
+  padding-top: 32px;
+  padding-bottom: 33px;
+}
+.blue_block__body {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.blue_block__body__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+.number {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.045em;
+}
+.blue_block__body__text .text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+/* ======================Ecscurs================ */
+
+.Button_ture {
+  background-color: #FFFFFF;
+  min-height: 123px;
+  padding-top: 28px;
+}
+
+.Button_ture__row {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.Button_ture__empty_block {
+  width: 229px;
+  height: 51px;
+}
+.Button_ture__double_block {
+  display: flex;
+  justify-content: space-between;
+  width: 265px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.Button_ture__double_block__first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 151px;
+  height: 51px;
+  border: 2px solid #35008F;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px rgba(70, 0, 190, 0.25);
+  border-radius: 10px;
+}
+.Button_ture__double_block__second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 51px;
+  border: 2px solid #35008F;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px rgba(70, 0, 190, 0.25);
+  border-radius: 10px;
+  order: -1;
+}
+.Button_ture__Graph {
+  width: 229px;
+  height: 51px;
+  border: 2px solid #35008F;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px rgba(70, 0, 190, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button_ture__row a:visited
+{
+  color:#000000;
+}
+.Button_ture__row :hover {
+  border-color: rgba(53, 0, 143, 0.2);
+  color: rgba(0, 0, 0, 0.2);
+}
+.Button_ture__row a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#000000;
+  height: 100%;
+  width: 100%;
+}
+/* =====================BLOCK_3_IMAGE============ */
+
+
+.block_3_image {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.block_3_image__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 3244px;
+}
+.block_3_image__row__char {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 520px;
+  height: 600px;
+  padding-bottom:34px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 15px;  
+}
+.title {
+  font-weight: bold;
 font-size: 24px;
 line-height: 29px;
+margin-bottom: 20px;
 }
 
-.our_project__body__circle .text {
-margin-top: 28px;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-flex: 1 1 273px;
+.block_3_image__row__char .text {
+  margin: 0 30px 0 20px;
+
 }
-.our_project__body__empty_block {
-  flex: 1 1 50px;
-}
-.our_project__body__logo_line {
+
+.button_more_det {
+  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+  border-radius: 10px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width:160px;
+  height: 51px;
+}
+.button_more_det a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.prod {
+  border-radius: 0px;
+}
+.button_more_det a:visited {
+  color: #000000;
 }
 
 
 
 
-
-
-/* ================================Подвал========================= */
+/* ======================FOOTER================= */
 
 
 
