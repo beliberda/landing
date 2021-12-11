@@ -133,7 +133,6 @@ font-weight: bold;
 font-size: 48px;
 line-height: 58px;
 min-height: 700px;
-/* identical to box height */
 color: #FFFFFF;
 }
 
@@ -177,6 +176,7 @@ color: #FFFFFF;
   background-color: #FFFFFF;
   min-height: 123px;
   padding-top: 28px;
+  text-align: center;
 }
 
 .Button_ture__row {
@@ -251,7 +251,9 @@ color: #FFFFFF;
   height: 100%;
   width: 100%;
 }
-/* =====================BLOCK_3_IMAGE============ */
+
+
+/* =====================BLOCK_3_IMAGE=================== */
 
 
 .block_3_image {
@@ -270,7 +272,8 @@ color: #FFFFFF;
   flex-direction: column;
   justify-content: space-between;
   max-width: 520px;
-  height: 600px;
+  width: 100%;
+  min-height: 600px;
   padding-bottom:34px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -283,14 +286,13 @@ color: #FFFFFF;
 }
 .title {
   font-weight: bold;
-font-size: 24px;
-line-height: 29px;
-margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
 }
 
 .block_3_image__row__char .text {
   margin: 0 30px 0 20px;
-
 }
 
 .button_more_det {
@@ -311,13 +313,32 @@ margin-bottom: 20px;
 }
 .prod {
   border-radius: 0px;
+  width: 100%;
+  max-height: 280px;
 }
 .button_more_det a:visited {
   color: #000000;
 }
 
+@media (max-width: 1150px)
+{
+  .block_3_image__row__char {
+    max-width: 48%;
+  }
+}
+@media (max-width: 700px)
+{
 
+  .block_3_image__row__char {
+    max-width: 420px;
 
+  }
+
+  .block_3_image__row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /* ======================FOOTER================= */
 
